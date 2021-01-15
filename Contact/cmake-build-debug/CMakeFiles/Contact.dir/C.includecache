@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Ctest/Contact/contactor.h
+stdio.h
+E:/Ctest/Contact/stdio.h
+string.h
+E:/Ctest/Contact/string.h
+
+E:/Ctest/Contact/main.c
+contactor.h
+E:/Ctest/Contact/contactor.h
+

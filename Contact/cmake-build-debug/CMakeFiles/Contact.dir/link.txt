@@ -1,0 +1,3 @@
+"E:\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Contact.dir/objects.a
+D:\MingGW\bin\ar.exe cr CMakeFiles\Contact.dir/objects.a @CMakeFiles\Contact.dir\objects1.rsp
+D:\MingGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Contact.dir/objects.a -Wl,--no-whole-archive  -o Contact.exe -Wl,--out-implib,libContact.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Contact.dir\linklibs.rsp
